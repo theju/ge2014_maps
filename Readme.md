@@ -30,6 +30,17 @@ select row_to_json(row) from (
 
 This is still a work in progress but feel free to check it out and contribute.
 
+## To do
+
+* Show a popup with the name of the constituency and a link to the [Affidavit
+archive](https://affidavitarchive.nic.in/) of the Election commission of India
+* HTML5 geolocation to display user's parliamentary constituency
+* Link to Constituency's Wikipedia page
+* Post election, name of the MP with contact details and parliament attendance
+* Get state assembly data and repeat
+* Display constituencies in the viewport of the map (rather than load the whole
+34MB file currently).
+
 ## Credits
 
 * The DataMeet Trust, Bangalore, India for making the data available under
