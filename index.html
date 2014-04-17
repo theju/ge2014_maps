@@ -22,7 +22,7 @@
 	      maxZoom: 18
 	  }).addTo(map);
       var PCLayer = L.geoJson().addTo(map);
-      $.get("/ge_2014.json", function(data) {
+      $.get("/ge_2014.geojson", function(data) {
 	  PCLayer.addData(data);
       });
     </script>
